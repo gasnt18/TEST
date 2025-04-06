@@ -19,7 +19,7 @@ import src
 
 
 async def main():
-    configuration()
+        configuration()
     await start()
 
 
