@@ -15,7 +15,7 @@ import src
 
 # if not using_playwright:
 # if platform.system() == "Windows":
-#     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+# asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 
 async def main():
