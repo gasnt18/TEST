@@ -16,7 +16,7 @@ if %ERRORLEVEL% NEQ 0 (
 
 :: Check if .git directory exists
 if not exist .git (
-    echo This is not a git repository. Please clone the repository first.
+        echo This is not a git repository. Please clone the repository first.
     goto end
 )
 
