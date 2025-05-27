@@ -20,7 +20,7 @@ import src
 
 async def main():
         configuration()
-            await start()
+            await start(1)
 
 
 log_format = (
